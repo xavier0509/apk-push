@@ -1,0 +1,119 @@
+@charset "utf-8";
+body {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/*outline: none;*/
+	z-index: 0;
+}
+
+#iconDiv img{
+	zoom:0.8;
+}
+
+#deviceready{
+	margin: 0 auto;
+	text-align: center;
+	height: 100%;
+}
+
+#bgImg{
+	z-index: 123;
+	width: 71.875%;
+	height: 72.59%;
+	margin-top: 7%;
+	-webkit-box-shadow:0 0 50px rgba(0, 0, 0, .5);  
+  	-moz-box-shadow:0 0 50px rgba(0, 0, 0, .5);  
+  	box-shadow:0 0 80px rgba(0, 0, 0, .6); 
+}
+
+#btn{
+	margin-top: -10%;
+	font-family: 幼圆;
+}
+button{
+	width: 20px;
+	height: 20px;
+	outline: none;
+	border: 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#downButton{
+	position: absolute;
+	left: 22.7%;
+	top: 72.88%;
+}
+#info1{
+	position: absolute;
+	top: 75.5%;
+	left: 30.3%;
+	font-size: 26px;
+}
+#info2{
+	position: absolute;
+	top: 75.5%;
+	left: 61.8%;
+	font-size: 26px;
+	color: rgb(51,51,51);
+}
+#walkButton{
+	position: absolute;
+	left: 54.53%;
+	top: 72.88%;
+}
+#iconDiv{
+	z-index: 2222;
+	width: 80%;
+	position: absolute;
+	top: 33%;
+	left: 7%;
+}
+#iconDiv img{
+	width: 14%;
+	margin-left: 6%;
+}
+#title1{
+	width: 13%;
+	position: absolute;
+	top: 56%;
+	left: 19%;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+#title2{
+	width: 13%;
+	position: absolute;
+	top: 56%;
+	left: 35%;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+#title3{
+	width: 13%;
+	position: absolute;
+	top: 56%;
+	left: 51%;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+#title4{
+	width: 13%;
+	position: absolute;
+	top: 56%;
+	left: 67%;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+
+button img{
+	zoom:0.66;
+}
